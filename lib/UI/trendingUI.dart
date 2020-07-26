@@ -26,7 +26,7 @@ class _trendingUIState extends State<trendingUI> {
     bloc.fetchAllMusic();
     return Scaffold(
       appBar: AppBar(
-        title: Text('Trending'),
+        title: Center(child: Text('Trending')),
       ),
       body: StreamBuilder(
         stream: bloc.allMusic,
