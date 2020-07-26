@@ -92,7 +92,7 @@ class _trendingUIState extends State<trendingUI> {
               album_name:data.results[index].album_name,
               explicit:data.results[index].explicit,
               track_rating:data.results[index].track_rating,
-//              track_id:data.results[index].track_id
+              track_id:data.results[index].track_id
           ),
         );
       }),

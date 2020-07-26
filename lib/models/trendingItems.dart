@@ -17,7 +17,7 @@ class trendingItems{
 
 class _Result {
   String track_name;
-  String track_id;
+  int track_id;
   String album_name;
   String artist_name;
   String explicit;
@@ -28,7 +28,7 @@ class _Result {
     this.album_name = result['album_name'];
     this.artist_name = result['artist_name'];
     this.track_id = result['track_id'];
-    this.explicit = result['explicit']==1?'True':'False';
+    this.explicit= result['explicit']==1?'True':'False';
     this.track_rating=result['track_rating'].toString();
   }
 }
